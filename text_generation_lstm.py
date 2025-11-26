@@ -117,6 +117,6 @@ def generate_text(seed_text, length=200, temperature=1.0):
 # 4. Train and generate output
 # -----------------------------
 
-model.fit(X, y, epochs=5)
+model.fit(X, y, epochs=28)
 print(generate_text("to be", length=200, temperature=0.8))
 
